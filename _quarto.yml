@@ -4,21 +4,27 @@ project:
 
 book:
   title: "Diseño Experimental y análisis de Datos"
-  author: "Juan A. Ugalde"
-  date: "2022"
+  #author: "Juan A. Ugalde"
+  #date: "2022"
   chapters:
     - index.qmd
     - part: introR.qmd
       chapters: 
       - intro_config.qmd
+  page-navigation: true
+  site-url: https://microbialds.github.io/ExpDesign/
+  repo-url: https://github.com/microbialds/ExpDesign.
+  repo-branch: master
+  
 
 bibliography: references.bib
 
 format:
   html:
     theme: cosmo
+    code-link: true
   pdf:
-    documentclass: scrreprt
+    documentclass: scrbook
 
 editor: visual
 

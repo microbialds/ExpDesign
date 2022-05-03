@@ -1,0 +1,5 @@
+# Introducción a R
+
+El trabajo práctico de este curso se realizará usando los softwares R y Rstudio. El primer paso es conocer e instalar R y RStudio, para luego configurar el ambiente de trabajo.
+
+El término **R** se refiere tanto al lenguaje de programación como al *software* que interpreta los *scripts*escritos usándolo. [**R**](https://www.r-project.org/about.html) es un *software* de libre acceso para computar análisis estadísticos y construir gráficos representativos. [**RStudio**](https://www.rstudio.com/) es la forma más popular y reconocida para escribir R *scripts* e interactuar con el *software*, funciona como interfaz gráfica de R, para hacer su uso más fácil e interactivo. Ambos están disponibles para Linux, MacOS y Windows.

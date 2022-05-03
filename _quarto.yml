@@ -3,14 +3,14 @@ project:
   output-dir: docs
 
 book:
-  title: "ExpDesign"
-  author: "Jane Doe"
-  date: "5/3/2022"
+  title: "Diseño Experimental y análisis de Datos"
+  author: "Juan A. Ugalde"
+  date: "2022"
   chapters:
     - index.qmd
-    - intro.qmd
-    - summary.qmd
-    - references.qmd
+    - part: introR.qmd
+      chapters: 
+      - intro_config.qmd
 
 bibliography: references.bib
 

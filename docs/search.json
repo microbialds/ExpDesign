@@ -2,29 +2,15 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "ExpDesign",
+    "title": "Diseño Experimental y análisis de Datos",
     "section": "",
-    "text": "This is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books."
+    "text": "Esta es la página web del curso Diseño experimental y análisis de datos, para el año 2022.\n\n\n\nJorge Valdes (jorge.valdes@unab.cl)\nJuan Ugalde (juan.ugalde@unab.cl)\n\nEste curso se dicta todos los días Miercoles en los modulos X- X, desde el Miercoles X de Mayo al Miercoles X de YYY."
   },
   {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "1  Introduction",
+    "objectID": "introR.html",
+    "href": "introR.html",
+    "title": "Introducción a R",
     "section": "",
-    "text": "See Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
-  },
-  {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "2  Summary",
-    "section": "",
-    "text": "In summary, this book has no content whatsoever."
-  },
-  {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
-    "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+    "text": "El término R se refiere tanto al lenguaje de programación como al software que interpreta los scriptsescritos usándolo. R es un software de libre acceso para computar análisis estadísticos y construir gráficos representativos. RStudio es la forma más popular y reconocida para escribir R scripts e interactuar con el software, funciona como interfaz gráfica de R, para hacer su uso más fácil e interactivo. Ambos están disponibles para Linux, MacOS y Windows."
   }
 ]

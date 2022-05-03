@@ -6,9 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Jane Doe">
+<meta name="author" content="Juan A. Ugalde">
+<meta name="dcterms.date" content="2022-01-01">
 
-<title>ExpDesign</title>
+<title>Diseño Experimental y análisis de Datos</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,7 +26,7 @@ ul.task-list{list-style: none;}
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
-<link href="./intro.html" rel="next">
+<link href="./introR.html" rel="next">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -64,7 +65,7 @@ ul.task-list{list-style: none;}
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">ExpDesign</h1>
+      <h1 class="quarto-secondary-nav-title">Diseño Experimental y análisis de Datos</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -77,7 +78,7 @@ ul.task-list{list-style: none;}
   <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">ExpDesign</a> 
+      <a href="./">Diseño Experimental y análisis de Datos</a> 
     </div>
       </div>
       <div class="mt-2 flex-shrink-0 align-items-center">
@@ -89,24 +90,24 @@ ul.task-list{list-style: none;}
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">Preface</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link active">Curso MCV502 / BCM634 / BIO625</a>
   </div>
 </li>
+        <li class="sidebar-item sidebar-item-section">
+    <div class="sidebar-item-container"> 
+        <a href="./introR.html" class="sidebar-item-text sidebar-link">Introducción a R</a>
+      <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+        <i class="bi bi-chevron-right ms-2"></i>
+      </a>
+    </div>
+    <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./intro.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></a>
+  <a href="./intro_config.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Configuración de computadoras</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./summary.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Summary</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./references.html" class="sidebar-item-text sidebar-link">References</a>
-  </div>
-</li>
+    </ul>
+  </li>
     </ul>
     </div>
 </nav>
@@ -116,7 +117,10 @@ ul.task-list{list-style: none;}
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#preface" id="toc-preface" class="nav-link active" data-scroll-target="#preface">Preface</a></li>
+  <li><a href="#curso-mcv502-bcm634-bio625" id="toc-curso-mcv502-bcm634-bio625" class="nav-link active" data-scroll-target="#curso-mcv502-bcm634-bio625">Curso MCV502 / BCM634 / BIO625</a>
+  <ul class="collapse">
+  <li><a href="#profesores" id="toc-profesores" class="nav-link" data-scroll-target="#profesores">Profesores</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -125,7 +129,7 @@ ul.task-list{list-style: none;}
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">ExpDesign</h1>
+<h1 class="title d-none d-lg-block">Diseño Experimental y análisis de Datos</h1>
 </div>
 
 
@@ -137,14 +141,14 @@ ul.task-list{list-style: none;}
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Jane Doe </p>
+             <p>Juan A. Ugalde </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">5/3/2022</p>
+      <p class="date">2022</p>
     </div>
   </div>
     
@@ -153,12 +157,19 @@ ul.task-list{list-style: none;}
 
 </header>
 
-<section id="preface" class="level1 unnumbered">
-<h1 class="unnumbered">Preface</h1>
-<p>This is a Quarto book.</p>
-<p>To learn more about Quarto books visit <a href="https://quarto.org/docs/books" class="uri">https://quarto.org/docs/books</a>.</p>
+<section id="curso-mcv502-bcm634-bio625" class="level1 unnumbered">
+<h1 class="unnumbered">Curso MCV502 / BCM634 / BIO625</h1>
+<p>Esta es la página web del curso Diseño experimental y análisis de datos, para el año 2022.</p>
+<section id="profesores" class="level2">
+<h2 class="anchored" data-anchor-id="profesores">Profesores</h2>
+<ul>
+<li><p>Jorge Valdes (jorge.valdes@unab.cl)</p></li>
+<li><p>Juan Ugalde (juan.ugalde@unab.cl)</p></li>
+</ul>
+<p>Este curso se dicta todos los días Miercoles en los modulos X- X, desde el Miercoles X de Mayo al Miercoles X de YYY.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -245,8 +256,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   <div class="nav-page nav-page-previous">
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./intro.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./introR.html" class="pagination-link">
+        <span class="nav-page-text">Introducción a R</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

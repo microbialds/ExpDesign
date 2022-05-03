@@ -1,5 +1,11 @@
-# Preface {.unnumbered}
+# Curso MCV502 / BCM634 / BIO625 {.unnumbered}
 
-This is a Quarto book.
+Esta es la página web del curso Diseño experimental y análisis de datos, para el año 2022.
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+## Profesores
+
+-   Jorge Valdes (jorge.valdes\@unab.cl)
+
+-   Juan Ugalde (juan.ugalde\@unab.cl)
+
+Este curso se dicta todos los días Miercoles en los modulos X- X, desde el Miercoles X de Mayo al Miercoles X de YYY.

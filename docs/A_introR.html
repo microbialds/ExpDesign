@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-0.9.301">
+<meta name="generator" content="quarto-0.9.299">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Introducción a R</title>
+<title>Diseño Experimental y análisis de Datos - Introducción a R</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,7 +24,7 @@ ul.task-list{list-style: none;}
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
-<link href="./intro_config.html" rel="next">
+<link href="./A1_intro_config.html" rel="next">
 <link href="./index.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -75,13 +75,18 @@ ul.task-list{list-style: none;}
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Diseño Experimental y análisis de Datos</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/microbialds/ExpDesign." title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
+</div>
+    </div>
+      </div>
       <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
         </div>
-        <div class="sidebar-tools-collapse">
-    <a href="https://github.com/microbialds/ExpDesign." title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
-</div>
       </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
@@ -92,7 +97,7 @@ ul.task-list{list-style: none;}
 </li>
         <li class="sidebar-item sidebar-item-section">
     <div class="sidebar-item-container"> 
-        <a href="./introR.html" class="sidebar-item-text sidebar-link active">Introducción a R</a>
+        <a href="./A_introR.html" class="sidebar-item-text sidebar-link active">Introducción a R</a>
       <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
         <i class="bi bi-chevron-right ms-2"></i>
       </a>
@@ -100,7 +105,7 @@ ul.task-list{list-style: none;}
     <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./intro_config.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Configuración de computadoras</span></a>
+  <a href="./A1_intro_config.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Configuración de R y RStudio</span></a>
   </div>
 </li>
     </ul>
@@ -133,8 +138,10 @@ ul.task-list{list-style: none;}
 
 </header>
 
-<p>El trabajo práctico de este curso se realizará usando los softwares R y Rstudio. El primer paso es conocer e instalar R y RStudio, para luego configurar el ambiente de trabajo.</p>
-<p>El término&nbsp;<strong>R</strong>&nbsp;se refiere tanto al lenguaje de programación como al&nbsp;<em>software</em>&nbsp;que interpreta los&nbsp;<em>scripts</em>escritos usándolo.&nbsp;<a href="https://www.r-project.org/about.html"><strong>R</strong></a>&nbsp;es un&nbsp;<em>software</em>&nbsp;de libre acceso para computar análisis estadísticos y construir gráficos representativos.&nbsp;<a href="https://www.rstudio.com/"><strong>RStudio</strong></a>&nbsp;es la forma más popular y reconocida para escribir R&nbsp;<em>scripts</em>&nbsp;e interactuar con el&nbsp;<em>software</em>, funciona como interfaz gráfica de R, para hacer su uso más fácil e interactivo. Ambos están disponibles para Linux, MacOS y Windows.</p>
+<p>El trabajo práctico de este curso se realizará usando los softwares R y Rstudio. Lo primero que haremos sera instalar R y RStudio para poder configurar el ambiente de trabajo.</p>
+<p><strong>R</strong> es un lenguaje de programación el cual permite hacer análisis estadisticos, manipular datos y generar visualizaciones. Es un lenguaje que permite ir desde una tabla cruda hasta llegar a visualizaciones complejas e incluso dashboards. <a href="https://www.r-project.org/about.html"><strong>R</strong></a> es un <em>software</em> de libre acceso con una comunidad que esta constantemente generando nuevas funcionalidades.</p>
+<p><a href="https://www.rstudio.com/"><strong>RStudio</strong></a> es la forma más popular (pero no es la única!) para trabajar con R, escribir <em>scripts</em>, realizar visualizacionees, entre otras tareas. La ventaja es que hace el uso de R mucho fácil e interactivo, ademas de facilitar otras tareas como escribir reportes e incluso paginas web (como la de este curso!). <strong>RStudio</strong> esta disponible para Linux, MacOS y Windows.</p>
+<p>Lo primero que haremos sera instalar <strong>R</strong> y <strong>RStudio</strong> si áun no los tienen, y veremos algunos detalles simples de su configuración.</p>
 
 
 
@@ -225,8 +232,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./intro_config.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Configuración de computadoras</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./A1_intro_config.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Configuración de R y RStudio</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

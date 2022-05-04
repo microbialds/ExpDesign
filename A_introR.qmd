@@ -1,0 +1,9 @@
+# Introducción a R
+
+El trabajo práctico de este curso se realizará usando los softwares R y Rstudio. Lo primero que haremos sera instalar R y RStudio para poder configurar el ambiente de trabajo.
+
+**R** es un lenguaje de programación el cual permite hacer análisis estadisticos, manipular datos y generar visualizaciones. Es un lenguaje que permite ir desde una tabla cruda hasta llegar a visualizaciones complejas e incluso dashboards.  [**R**](https://www.r-project.org/about.html) es un *software* de libre acceso con una comunidad que esta constantemente generando nuevas funcionalidades.
+
+[**RStudio**](https://www.rstudio.com/) es la forma más popular (pero no es la única!) para trabajar con R, escribir _scripts_, realizar visualizacionees, entre otras tareas. La ventaja es que hace el uso de R mucho fácil e interactivo, ademas de facilitar otras tareas como escribir reportes e incluso paginas web (como la de este curso!). **RStudio** esta disponible para Linux, MacOS y Windows.
+
+Lo primero que haremos sera instalar **R** y **RStudio** si áun no los tienen, y veremos algunos detalles simples de su configuración.

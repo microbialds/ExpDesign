@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-0.9.301">
+<meta name="generator" content="quarto-0.9.299">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>1&nbsp; Configuración de computadoras</title>
+<title>Diseño Experimental y análisis de Datos - 1&nbsp; Configuración de R y RStudio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,7 +24,7 @@ ul.task-list{list-style: none;}
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
-<link href="./introR.html" rel="prev">
+<link href="./A_introR.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -63,7 +63,7 @@ ul.task-list{list-style: none;}
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Configuración de computadoras</span></h1>
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Configuración de R y RStudio</span></h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -74,13 +74,18 @@ ul.task-list{list-style: none;}
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Diseño Experimental y análisis de Datos</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/microbialds/ExpDesign." title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
+</div>
+    </div>
+      </div>
       <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
         </div>
-        <div class="sidebar-tools-collapse">
-    <a href="https://github.com/microbialds/ExpDesign." title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
-</div>
       </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
@@ -91,7 +96,7 @@ ul.task-list{list-style: none;}
 </li>
         <li class="sidebar-item sidebar-item-section">
     <div class="sidebar-item-container"> 
-        <a href="./introR.html" class="sidebar-item-text sidebar-link">Introducción a R</a>
+        <a href="./A_introR.html" class="sidebar-item-text sidebar-link">Introducción a R</a>
       <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
         <i class="bi bi-chevron-right ms-2"></i>
       </a>
@@ -99,7 +104,7 @@ ul.task-list{list-style: none;}
     <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./intro_config.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Configuración de computadoras</span></a>
+  <a href="./A1_intro_config.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Configuración de R y RStudio</span></a>
   </div>
 </li>
     </ul>
@@ -109,14 +114,22 @@ ul.task-list{list-style: none;}
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#instalar-r" id="toc-instalar-r" class="nav-link active" data-scroll-target="#instalar-r"> <span class="header-section-number">1.1</span> Instalar R</a></li>
+  <li><a href="#instalar-rstudio" id="toc-instalar-rstudio" class="nav-link" data-scroll-target="#instalar-rstudio"> <span class="header-section-number">1.2</span> Instalar RStudio</a></li>
+  <li><a href="#resolver-problemas" id="toc-resolver-problemas" class="nav-link" data-scroll-target="#resolver-problemas"> <span class="header-section-number">1.3</span> Resolver problemas</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Configuración de computadoras</span></h1>
+<h1 class="title d-none d-lg-block"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Configuración de R y RStudio</span></h1>
 </div>
 
 
@@ -132,8 +145,24 @@ ul.task-list{list-style: none;}
 
 </header>
 
+<p>Lo primero que es necesario hacer es instalar R y RStudio, en ese orden!</p>
+<p><em>Nota para usuarios de MacOS</em></p>
+<p>Antes de instalar R, la recomendación es instalar primero <a href="https://developer.apple.com/xcode/">Xcode</a> y <a href="https://www.xquartz.org/">XQuartz</a>.</p>
+<section id="instalar-r" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="instalar-r"><span class="header-section-number">1.1</span> Instalar R</h2>
+<p>R se puede descargar desde la pagina del Comprehensive R Archive Network o <a href="https://cran.r-project.org/">CRAN</a>. Desde ese lugar se puede descargar la version de R e instalar según su sistema operativo.</p>
+</section>
+<section id="instalar-rstudio" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="instalar-rstudio"><span class="header-section-number">1.2</span> Instalar RStudio</h2>
+<p>En la <a href="https://www.rstudio.com/products/rstudio/download/#download">página de descarga de RStudio</a>, elegir la versión según el sistema operativo que esten utilizando.</p>
+</section>
+<section id="resolver-problemas" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="resolver-problemas"><span class="header-section-number">1.3</span> Resolver problemas</h2>
+<p>Tanto R como RStudio tiene paginas web en donde se pueden encontrar respuestas a algunas preguntas. En el caso de R estan <a href="https://cran.r-project.org/doc/FAQ/R-FAQ.html"><em>“Frequently Asked Questions”</em>(FAQ) de R</a>, o para Windows <a href="https://cran.r-project.org/bin/windows/base/rw-FAQ.html#How-do-I-UNinstall-R_003f">R for Windows FAQ</a>.</p>
+<p>Otra fuente de información son paginas web y foros como <a href="https://stackoverflow.com/">Stack Overflow</a> <a href="https://community.rstudio.com/">RStudio community</a>. Sin embargo, lo más probable es que tus dudas ya se encuentren resueltas en la web, asi que primero haz una búsqueda en <a href="https://www.google.com/"><strong>Google</strong></a> usando palabras clave o <strong>copia y pega en el buscador el mensaje de error</strong> que te aparezca en la consola de R. <strong>Consejo</strong>: haz tus búsquedas y consultas en inglés, tendrás acceso a más y mejor información.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script type="application/javascript">
@@ -217,7 +246,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./introR.html" class="pagination-link">
+      <a href="./A_introR.html" class="pagination-link">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Introducción a R</span>
       </a>          
   </div>

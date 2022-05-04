@@ -7,10 +7,38 @@
     "text": "Esta es la página web del curso Diseño experimental y análisis de datos, para el año 2022.\n\n\n\nJorge Valdes (jorge.valdes@unab.cl)\nJuan Ugalde (juan.ugalde@unab.cl)\n\nEste curso se dicta todos los días Miercoles en los modulos X- X, desde el Miercoles X de Mayo al Miercoles X de YYY."
   },
   {
-    "objectID": "introR.html",
-    "href": "introR.html",
+    "objectID": "A_introR.html",
+    "href": "A_introR.html",
     "title": "Introducción a R",
     "section": "",
-    "text": "El término R se refiere tanto al lenguaje de programación como al software que interpreta los scriptsescritos usándolo. R es un software de libre acceso para computar análisis estadísticos y construir gráficos representativos. RStudio es la forma más popular y reconocida para escribir R scripts e interactuar con el software, funciona como interfaz gráfica de R, para hacer su uso más fácil e interactivo. Ambos están disponibles para Linux, MacOS y Windows."
+    "text": "R es un lenguaje de programación el cual permite hacer análisis estadisticos, manipular datos y generar visualizaciones. Es un lenguaje que permite ir desde una tabla cruda hasta llegar a visualizaciones complejas e incluso dashboards. R es un software de libre acceso con una comunidad que esta constantemente generando nuevas funcionalidades.\nRStudio es la forma más popular (pero no es la única!) para trabajar con R, escribir scripts, realizar visualizacionees, entre otras tareas. La ventaja es que hace el uso de R mucho fácil e interactivo, ademas de facilitar otras tareas como escribir reportes e incluso paginas web (como la de este curso!). RStudio esta disponible para Linux, MacOS y Windows.\nLo primero que haremos sera instalar R y RStudio si áun no los tienen, y veremos algunos detalles simples de su configuración."
+  },
+  {
+    "objectID": "A1_intro_config.html",
+    "href": "A1_intro_config.html",
+    "title": "1  Configuración de R y RStudio",
+    "section": "",
+    "text": "Lo primero que es necesario hacer es instalar R y RStudio, en ese orden!\nNota para usuarios de MacOS\nAntes de instalar R, la recomendación es instalar primero Xcode y XQuartz."
+  },
+  {
+    "objectID": "A1_intro_config.html#instalar-r",
+    "href": "A1_intro_config.html#instalar-r",
+    "title": "1  Configuración de R y RStudio",
+    "section": "1.1 Instalar R",
+    "text": "1.1 Instalar R\nR se puede descargar desde la pagina del Comprehensive R Archive Network o CRAN. Desde ese lugar se puede descargar la version de R e instalar según su sistema operativo."
+  },
+  {
+    "objectID": "A1_intro_config.html#instalar-rstudio",
+    "href": "A1_intro_config.html#instalar-rstudio",
+    "title": "1  Configuración de R y RStudio",
+    "section": "1.2 Instalar RStudio",
+    "text": "1.2 Instalar RStudio\nEn la página de descarga de RStudio, elegir la versión según el sistema operativo que esten utilizando."
+  },
+  {
+    "objectID": "A1_intro_config.html#resolver-problemas",
+    "href": "A1_intro_config.html#resolver-problemas",
+    "title": "1  Configuración de R y RStudio",
+    "section": "1.3 Resolver problemas",
+    "text": "1.3 Resolver problemas\nTanto R como RStudio tiene paginas web en donde se pueden encontrar respuestas a algunas preguntas. En el caso de R estan “Frequently Asked Questions”(FAQ) de R, o para Windows R for Windows FAQ.\nOtra fuente de información son paginas web y foros como Stack Overflow RStudio community. Sin embargo, lo más probable es que tus dudas ya se encuentren resueltas en la web, asi que primero haz una búsqueda en Google usando palabras clave o copia y pega en el buscador el mensaje de error que te aparezca en la consola de R. Consejo: haz tus búsquedas y consultas en inglés, tendrás acceso a más y mejor información."
   }
 ]

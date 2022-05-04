@@ -8,9 +8,9 @@ book:
   #date: "2022"
   chapters:
     - index.qmd
-    - part: introR.qmd
+    - part: A_introR.qmd
       chapters: 
-      - intro_config.qmd
+      - A1_intro_config.qmd
   page-navigation: true
   site-url: https://microbialds.github.io/ExpDesign/
   repo-url: https://github.com/microbialds/ExpDesign.

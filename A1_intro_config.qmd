@@ -1,0 +1,21 @@
+# Configuración de R y RStudio
+
+Lo primero que es necesario hacer es instalar R y RStudio, en ese orden!
+
+*Nota para usuarios de MacOS*
+
+Antes de instalar R, la recomendación es instalar primero [Xcode](https://developer.apple.com/xcode/) y [XQuartz](https://www.xquartz.org/).
+
+## Instalar R
+
+R se puede descargar desde la pagina del Comprehensive R Archive Network o [CRAN](https://cran.r-project.org/). Desde ese lugar se puede descargar la version de R e instalar según su sistema operativo.
+
+## Instalar RStudio
+
+En la [página de descarga de RStudio](https://www.rstudio.com/products/rstudio/download/#download), elegir la versión según el sistema operativo que esten utilizando.
+
+## Resolver problemas
+
+Tanto R como RStudio tiene paginas web en donde se pueden encontrar respuestas a algunas preguntas. En el caso de R estan [*"Frequently Asked Questions"*(FAQ) de R](https://cran.r-project.org/doc/FAQ/R-FAQ.html), o para Windows [R for Windows FAQ](https://cran.r-project.org/bin/windows/base/rw-FAQ.html#How-do-I-UNinstall-R_003f).
+
+Otra fuente de información son paginas web y foros como [Stack Overflow](https://stackoverflow.com/)  [RStudio community](https://community.rstudio.com/). Sin embargo, lo más probable es que tus dudas ya se encuentren resueltas en la web, asi que primero haz una búsqueda en [**Google**](https://www.google.com/) usando palabras clave o **copia y pega en el buscador el mensaje de error** que te aparezca en la consola de R. **Consejo**: haz tus búsquedas y consultas en inglés, tendrás acceso a más y mejor información.

@@ -11,6 +11,7 @@ book:
     - part: A_introR.qmd
       chapters: 
       - A1_intro_config.qmd
+      - A2_intro_env.qmd
   page-navigation: true
   site-url: https://microbialds.github.io/ExpDesign/
   repo-url: https://github.com/microbialds/ExpDesign.

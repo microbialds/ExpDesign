@@ -47,5 +47,19 @@
     "title": "2  Configuración del ambiente de trabajo en R",
     "section": "",
     "text": "En R puedes hacer operaciones básicas como una suma o división simplemente escribiendo la instrucción en la consola, e.g.,27 + 4, 3 / 4. Para hacer cálculos más complejos como calcular la mediana de un set de datos o leer una tabla de valores, usamos funciones que son programas predeterminados en R. Así mismo, para cálculos aún más complejos como hacer un análisis de expresión diferencial de genes o generar un gráfico, usamos paquetes que son un amplio conjunto de funciones preprogramadas que permiten hacer este tipo de análisis sin necesidad de tener habilidades de programación."
+  },
+  {
+    "objectID": "A2_intro_env.html#instalar-y-cargar-paquetes-en-r",
+    "href": "A2_intro_env.html#instalar-y-cargar-paquetes-en-r",
+    "title": "2  Configuración del ambiente de trabajo en R",
+    "section": "2.1 Instalar y cargar paquetes en R",
+    "text": "2.1 Instalar y cargar paquetes en R\nUna de las grandes ventajas de R es que existen numerosos paquetes que permiten agregar funcionalidades adicionales al lenguaje, incluyendo análisis de secuencias, herramientas avanzadas de visualización, etc.\nLos principales repositorios de paquetes son: CRAN, Bioconductor, y GitHub. Durante este curso vamos a ir utilizando diferentes paquetes que vamos a ir instalando. A modo de ejemplo estas son las instrucciones para instalar el paquete tidyverse, para manipular tablas y realizar gráicos.\ninstall.packages(\"tidyverse\")\nUna vez instalado, cada vez que vayamos a utilizar este paquete, al inicio de la sesión o el script, escribimos\nlibrary(tidyverse)"
+  },
+  {
+    "objectID": "A2_intro_env.html#definir-directorio-de-trabajo",
+    "href": "A2_intro_env.html#definir-directorio-de-trabajo",
+    "title": "2  Configuración del ambiente de trabajo en R",
+    "section": "2.2 Definir directorio de trabajo",
+    "text": "2.2 Definir directorio de trabajo\nCada vez que se abre una nueva sesión de R, lo segundo que debemos hacer (después de cargar los paquetes necesarios) es definir el directorio de trabajo en nuestra computadora.\nPara esto lo ideal es definir una carpeta de trabajo (por ejemplo MCV502), y dirigir a RStudio a utilizar esta carpeta como lugar de trabajo.\nRStudio:\n\nAbre RStudio y dirígete a la pestaña Files.\nNavega por los directorios de tu computador hasta la ubicación de la carpeta que hayas definido (por ejemplo MCV502)\nSelecciona la carpeta, una vez dentro puedes definirla como tu directorio de trabajo. Para ello, haz clic en More -> Set As Working Directory."
   }
 ]

@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Diseño Experimental y análisis de Datos",
     "section": "",
-    "text": "Esta es la página web del curso Diseño experimental y análisis de datos, para el año 2022.\n\n\n\nJorge Valdes (jorge.valdes@unab.cl)\nJuan Ugalde (juan.ugalde@unab.cl)\n\nEste curso se dicta todos los días Miercoles en los modulos X- X, desde el Miercoles X de Mayo al Miercoles X de YYY."
+    "text": "Esta es la página web del curso Diseño experimental y análisis de datos, para el año 2022.\n\n\n\nJorge Valdes (jorge.valdes@unab.cl)\nJuan Ugalde (juan.ugalde@unab.cl)\n\nEste curso se dicta todos los días Miercoles en los modulos X- X, desde el Miercoles 11 de Mayo al Miercoles X de Junio."
   },
   {
     "objectID": "A_introR.html",
@@ -40,5 +40,12 @@
     "title": "1  Configuración de R y RStudio",
     "section": "1.3 Resolver problemas",
     "text": "1.3 Resolver problemas\nTanto R como RStudio tiene paginas web en donde se pueden encontrar respuestas a algunas preguntas. En el caso de R estan “Frequently Asked Questions”(FAQ) de R, o para Windows R for Windows FAQ.\nOtra fuente de información son paginas web y foros como Stack Overflow RStudio community. Sin embargo, lo más probable es que tus dudas ya se encuentren resueltas en la web, asi que primero haz una búsqueda en Google usando palabras clave o copia y pega en el buscador el mensaje de error que te aparezca en la consola de R. Consejo: haz tus búsquedas y consultas en inglés, tendrás acceso a más y mejor información."
+  },
+  {
+    "objectID": "A2_intro_env.html",
+    "href": "A2_intro_env.html",
+    "title": "2  Configuración del ambiente de trabajo en R",
+    "section": "",
+    "text": "En R puedes hacer operaciones básicas como una suma o división simplemente escribiendo la instrucción en la consola, e.g.,27 + 4, 3 / 4. Para hacer cálculos más complejos como calcular la mediana de un set de datos o leer una tabla de valores, usamos funciones que son programas predeterminados en R. Así mismo, para cálculos aún más complejos como hacer un análisis de expresión diferencial de genes o generar un gráfico, usamos paquetes que son un amplio conjunto de funciones preprogramadas que permiten hacer este tipo de análisis sin necesidad de tener habilidades de programación."
   }
 ]

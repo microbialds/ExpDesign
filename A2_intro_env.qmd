@@ -1,4 +1,3 @@
 # Configuración del ambiente de trabajo en R
 
 En R puedes hacer operaciones básicas como una suma o división simplemente escribiendo la instrucción en la consola, e.g.,`27 + 4`, `3 / 4`. Para hacer cálculos más complejos como calcular la mediana de un set de datos o leer una tabla de valores, usamos **funciones** que son programas predeterminados en R. Así mismo, para cálculos aún más complejos como hacer un análisis de expresión diferencial de genes o generar un gráfico, usamos **paquetes** que son un amplio conjunto de funciones preprogramadas que permiten hacer este tipo de análisis sin necesidad de tener habilidades de programación.
-

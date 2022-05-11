@@ -8,4 +8,8 @@ Esta es la página web del curso Diseño experimental y análisis de datos, para
 
 -   Juan Ugalde (juan.ugalde\@unab.cl)
 
-Este curso se dicta todos los días Miercoles en los modulos X- X, desde el Miercoles 11 de Mayo al Miercoles X de Junio.
+Este curso se dicta todos los días Miercoles en los modulos 7-12 (entre las 14:00 - 18:25hrs).
+
+Esta página contiene el material práctico que iremos desarrollando en el curso, principalmente en la exploración y visualización de datos.
+
+**Bienvenidos!!!!!!!**

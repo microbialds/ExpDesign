@@ -1,0 +1,93 @@
+# Intro a Tidyverse
+
+## Explorando un set de datos
+
+Antes de empezar cualquier analisis, especialmente si estamos iniciando un script desde cero, tenemos que llamar a las librerias que vamos a utilizar. Como estuvimos viendo durante la clase, la libreria que vamos a utilizar es *tidyverse*, la cual cargamos con el siguiente comando:
+
+```{r}
+library(tidyverse)
+```
+
+Primero vamos a explorar un set de datos que ya viene incluido en la libreria, y que tiene valores de eficiencia de combustible para diferentes modelos de automoviles
+
+```{r}
+# Asignmamos la tabla mpg a una nueva variable que vamos a llamar
+# tabla_mpg
+tabla_mpg = mpg
+```
+
+Podemos ver el contenido de la tabla y el tipo de variables escribiendo.
+
+```{r}
+tabla_mpg
+```
+
+Podemos ver que tiene varias columnas con distintas caracteristicas en donde:
+
+- chr, indica caracteres
+- dbl, números reales
+- int, números enteros
+- dttm, fecha y hora (en esta tabla de ejemplo no tenemos ese tipo de datos)
+
+## Funciones mas comunes para filtrar tablas
+
+Algunas de las funciones más comunes en el paquete de análisis son:
+
+- *select()*: extraer columnas.
+- *filter()*: extraer filas según condiciones.
+- *mutate()*: crear nuevas columnas usando la información de otras columnas.
+- *group_by()* y *summarize()*: cálcula estadísticas en datos agrupados.
+- *count()*: conteo de datos.
+
+### Filtrando por columnas
+
+Una de las primeras cosas que podemos hacer es filtrar la tabla por algún valor en alguna de columna de interés. Para esto ocupamos el comando _filter_
+
+```{r}
+# En este caso estamos filtrando la tabla_mpg, en donde la columna year sea menor al año 2000
+filter(tabla_mpg, year < 2000)
+```
+
+Tambien podemos elegir un rango de años
+
+```{r}
+filter(tabla_mpg, year < 2000 | year > 2007)
+```
+
+Ademas de estar introduciendo la función de filtro (_filter_), también estamos viendo como podemos hacer busquedas por ciertos patrones. Por ejemplo:
+
+- year < 2000: En este caso el valor de year es menor a 2000
+- El simbolo **|** indica que son dos posibles condiciones. En el ejemplo anterior tenemos que sea menor al año 2000 **o** mayor al año 2007.
+- El simbolo **&** indica que se tienen que cumplir todas las condiciones. Por ejemplo:
+
+
+```{r}
+filter(tabla_mpg,
+       (year < 2000 | year > 2007) & model == "a4"
+)
+```
+
+En este caso estamos aplicando dos filtros. Que el año sea menor al 2000 y mayor al 2007, y que el modelo sea igual a `a4`. 
+El parentesis es muy importante, porque agrupa las condiciones a filtrar. 
+
+
+### Seleccionando columnas
+
+Tambien podemos seleccionar columnas de interes, luego de aplicar algún filtro (o viceversa). Por ejemplo:
+
+```{r}
+filter(tabla_mpg,
+       (year < 2000 | year > 2007) & manufacturer == "audi") %>%
+  select(model, year)
+
+```
+
+En este caso estamos filtrando por el año y el fabricante, y luego seleccionando dos columnas, el modelo y año.
+
+Adicionalmente ocupamos el simbolo %>%, para hacer operaciones consecutivas utilizando **pipes**. De esta manera el output de una función (el filtro) es el input de la siguiente (select).
+
+Esto nos permite concatenar diferentes pasos de filtrado, agrupar, selección, etc, en un solo comando.
+
+
+
+

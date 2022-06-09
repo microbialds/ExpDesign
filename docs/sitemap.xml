@@ -2,22 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://microbialds.github.io/ExpDesign/index.html</loc>
-    <lastmod>2022-05-11T17:15:04.241Z</lastmod>
+    <lastmod>2022-06-09T20:59:06.109Z</lastmod>
   </url>
   <url>
     <loc>https://microbialds.github.io/ExpDesign/A_introR.html</loc>
-    <lastmod>2022-05-11T17:15:03.775Z</lastmod>
+    <lastmod>2022-06-09T20:59:06.110Z</lastmod>
   </url>
   <url>
     <loc>https://microbialds.github.io/ExpDesign/A1_intro_config.html</loc>
-    <lastmod>2022-05-11T17:15:03.775Z</lastmod>
+    <lastmod>2022-06-09T20:59:06.110Z</lastmod>
   </url>
   <url>
     <loc>https://microbialds.github.io/ExpDesign/A2_intro_env.html</loc>
-    <lastmod>2022-05-11T17:15:03.776Z</lastmod>
+    <lastmod>2022-06-09T20:59:06.111Z</lastmod>
+  </url>
+  <url>
+    <loc>https://microbialds.github.io/ExpDesign/A3_tidyverse.html</loc>
+    <lastmod>2022-06-09T20:59:06.111Z</lastmod>
   </url>
   <url>
     <loc>https://microbialds.github.io/ExpDesign/Diseño-Experimental-y-análisis-de-Datos.pdf</loc>
-    <lastmod>2022-05-11T17:15:03.695Z</lastmod>
+    <lastmod>2022-06-09T20:59:06.033Z</lastmod>
   </url>
 </urlset>
